@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "bootstrap-sass": "3.3.7",
+    "bootstrap-social": "5.1.1",
+    "browser-sync": "^2.26.3",
+    "child_process": "^1.0.2",
+    "directory-exists": "^2.0.1",
+    "font-awesome": "4.7.0",
+    "gulp": "3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-error-handle": "^1.0.1",
+    "gulp-include": "^2.3.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-util": "^3.0.8",
+    "jquery": "3.3.1",
+  }
+}

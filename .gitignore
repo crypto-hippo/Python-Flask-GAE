@@ -1,0 +1,9 @@
+*.pyc
+.idea
+yarn-error.log
+node_modules
+main/lib
+main/static/dev
+main/static/prod
+main/static/fonts 
+

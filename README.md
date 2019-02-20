@@ -7,11 +7,12 @@
 - [macOS][] or [Linux][] or [Windows][]
 
 ## Running the Development Environment
+- yarn install
 
 ## Tech Stack
 
 - [Google App Engine][], [NDB][]
-- [Jinja2][], [Flask][], [Flask-WTF][], [Gaesessions][]
+- [Jinja2][], [Flask][], [Flask-WTF][]
 - [scss][]
 - [Bootstrap][], [Font Awesome][], [Social Buttons][]
 - [jQuery][]

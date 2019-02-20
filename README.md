@@ -16,7 +16,7 @@
 - [Bootstrap][], [Font Awesome][], [Social Buttons][]
 - [jQuery][]
 - [OpenID][] sign in (Google, Facebook, Twitter and more)
-- [Python 2.7][], [pip][], [virtualenv][]
+- [Python 2.7][], [pip][]
 - [Gulp][]
 
 [bootstrap]: http://getbootstrap.com/

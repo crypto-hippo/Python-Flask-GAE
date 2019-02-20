@@ -18,15 +18,9 @@ error_handlers:
   - file: templates/error.html
   
 handlers:
-- url: /css
-  static_dir: static/css
+- url: /static
+  static_dir: static/
 
-- url: /js
-  static_dir: static/js
-
-- url: /img
-  static_dir: static/img
-  
 - url: /.*
   script: main.app
   secure: always

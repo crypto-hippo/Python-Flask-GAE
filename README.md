@@ -8,6 +8,9 @@
 
 ## Running the Development Environment
 - yarn install
+- gulp
+- dev_appserver.py main/app.yaml
+- open another terminal and execute (gulp gae-watch)
 
 ## Tech Stack
 

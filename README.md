@@ -16,7 +16,7 @@
 
 - [Google App Engine][], [NDB][]
 - [Jinja2][], [Flask][], [Flask-WTF][]
-- [scss][]
+- [SCSS][]
 - [Bootstrap][], [Font Awesome][], [Social Buttons][]
 - [jQuery][]
 - [OpenID][] sign in (Google, Facebook, Twitter and more)

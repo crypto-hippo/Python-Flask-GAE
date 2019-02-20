@@ -1,4 +1,4 @@
-# Linkspot GAE (Google AppEngine)
+# Python Flask SCSS (Google AppEngine)
 
 ## Requirements
 

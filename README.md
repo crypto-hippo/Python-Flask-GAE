@@ -11,7 +11,7 @@
 ## Tech Stack
 
 - [Google App Engine][], [NDB][]
-- [Jinja2][], [Flask][], [Flask-WTF][]
+- [Jinja2][], [Flask][], [Flask-WTF][], [Gaesessions][]
 - [scss][]
 - [Bootstrap][], [Font Awesome][], [Social Buttons][]
 - [jQuery][]

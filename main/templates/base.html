@@ -24,7 +24,7 @@
     {% endblock footer %}
 
     {% block footer_scripts %}
-
+    
         {{ macro.load_resource('js', 'base') }}
         <script>
             window.csrf_token = "{{csrf_token()}}";

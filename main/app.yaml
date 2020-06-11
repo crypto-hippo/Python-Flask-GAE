@@ -1,27 +1,7 @@
-runtime: python27
-api_version: 1
-threadsafe: yes
+runtime: python37
 
-builtins:
-  - appstats: on
-  - deferred: on
-  - remote_api: on
-
-inbound_services:
-  - warmup
-
-libraries:
-  - name: ssl
-    version: latest
-
-error_handlers:
-  - file: templates/error.html
-  
 handlers:
-- url: /static
-  static_dir: static/
 
 - url: /.*
-  script: main.app
-  secure: always
+  script: auto
 

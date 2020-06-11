@@ -1,7 +1,7 @@
 # Python Flask (Google AppEngine) Starter Template
 
 ## Requirements
-- [Python3.7]
+- [Python3.7][]
 - [Google App Engine SDK for Python][]
 - [pip][]
 - [macOS][] or [Linux][] or [Windows][]

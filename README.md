@@ -1,47 +1,27 @@
-# Python Flask SCSS (Google AppEngine)
+# Python Flask (Google AppEngine) Starter Template
 
 ## Requirements
-
+- [Python3.7]
 - [Google App Engine SDK for Python][]
-- [Node.js][], [Yarn][], [pip][]
+- [pip][]
 - [macOS][] or [Linux][] or [Windows][]
 
 ## Running the Development Environment
-- yarn install
-- gulp
-- dev_appserver.py main/app.yaml
-- open another terminal and execute (gulp gae-watch)
+- cd main
+- pip install -r requirements.txt
+- python main.py
+
+## Deploy to google app engine standard environment
+- gcloud app deploy --project=[your_gae_here]
 
 ## Tech Stack
 
-- [Google App Engine][], [NDB][]
-- [Jinja2][], [Flask][], [Flask-WTF][]
-- [SCSS][]
-- [Bootstrap][], [Font Awesome][], [Social Buttons][]
-- [jQuery][]
-- [OpenID][] sign in (Google, Facebook, Twitter and more)
-- [Python 2.7][], [pip][]
-- [Gulp][]
+- [Google App Engine][], [Python3.7][]
+- [Flask]
 
-[bootstrap]: http://getbootstrap.com/
-[documentation]: http://docs.gae-init.appspot.com
-[feature list]: http://docs.gae-init.appspot.com/features/
-[flask-wtf]: https://flask-wtf.readthedocs.org
-[flask]: http://flask.pocoo.org/
-[font awesome]: http://fortawesome.github.com/Font-Awesome/
+
 [google app engine sdk for python]: https://developers.google.com/appengine/downloads
 [google app engine]: https://developers.google.com/appengine/
-[gulp]: http://gulpjs.com
 [jinja2]: http://jinja.pocoo.org/docs/
-[jquery]: https://jquery.com/
-[scss]: https://sass-lang.com/guide
-[linux]: http://www.ubuntu.com
-[macos]: http://www.apple.com/macos/
-[ndb]: https://developers.google.com/appengine/docs/python/ndb/
-[node.js]: http://nodejs.org/
-[openid]: http://en.wikipedia.org/wiki/OpenID
 [pip]: http://www.pip-installer.org/
-[python 2.7]: https://developers.google.com/appengine/docs/python/python27/using27
-[social buttons]: http://lipis.github.io/bootstrap-social/
-[windows]: http://windows.microsoft.com/
-[yarn]: https://yarnpkg.com/
+

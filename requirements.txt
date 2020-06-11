@@ -1,4 +1,0 @@
-flask==1.0.2
-flask-wtf==0.14.2
-jinja2==2.10
-unidecode==1.0.23

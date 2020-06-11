@@ -10,10 +10,3 @@ jinja_env_globals = {
     "config": config,
     "url_for": url_for,
 }
-
-# jinja_env_globals = {
-#     "now": now,
-#     "config": config,
-#     "url_for": url_for,
-#     "get_flashed_messages": get_flashed_messages
-# }

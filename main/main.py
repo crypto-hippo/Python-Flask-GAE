@@ -52,9 +52,12 @@ def setup_app():
     return app
 
 app = setup_app()
+
+# allows us to use data memebers defined in jinja globals to be used within our html templates
 app.jinja_env.globals.update(**jinja_env_globals)
 
-
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=8000)
 
 
 

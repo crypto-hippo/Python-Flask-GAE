@@ -1,7 +1,7 @@
 {% macro load_resource(resource_type, resource_name) %}
     {% if resource_type == 'js' %}
-        <script src="/static/dev/{{resource_type}}/{{resource_name}}.js?v={{ now() }}"></script>
+        <script src="/static/{{resource_type}}/{{resource_name}}.js?v={{ now() }}"></script>
     {% elif resource_type == 'css' %}
-        <link rel="stylesheet" href="/static/dev/{{resource_type}}/{{resource_name}}.css?v={{ now() }}">
+        <link rel="stylesheet" href="/static/{{resource_type}}/{{resource_name}}.css?v={{ now() }}">
     {% endif %}
 {% endmacro %}

@@ -17,7 +17,6 @@
 from flask import Flask, redirect, render_template, request, jsonify, url_for
 from blueprints.index_blueprint import index_blueprint
 from jinja_globals import jinja_env_globals
-from flask_wtf.csrf import CSRFProtect
 from config import config 
 import time
 import jinja2
@@ -37,7 +36,6 @@ def create_flask_app():
     template_dir = os.path.join(os.path.dirname(__file__), 'templates')
     jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir), autoescape=True)
     app.secret_key = config["secret_key"]
-    csrf.init_app(app)
     app.jinja_env = jinja_env
     app.debug = True
     return app

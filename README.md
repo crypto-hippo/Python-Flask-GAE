@@ -6,7 +6,7 @@
     Google App Engine SDK for Python
     pip
     mac, linux or windows
-'''
+```
 
 ## Running the Development Environment
 ```bash
